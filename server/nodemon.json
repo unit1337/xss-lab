@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "src",
+        "build",
+        "csp.js",
+        "index.js"
+    ],
+    "ext": ".ts,.json,.css,.html,.js",
+    "ignore": [],
+    "exec": "NODE_ENV=development ts-node-dev --respawn src/index.ts"
+}
